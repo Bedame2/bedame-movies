@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 25px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.89), rgb(0, 0, 0)),
+    url(FLORIDA_PROJECT.ac4c172.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    text-align:  center;
+}
+.contain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.bedame{
+    color:rgb(255, 254, 254);
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+}
+.navs{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: all 0500ms ease;
+}
+.navs:hover{
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    transform: translate(100px);
+}
+.first{
+    font-weight: 600;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 2px solid orangered;
+}
+.first:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+    /* dropdown Menu */
+.dropdown{
+    position: relative;
+}
+.dropdown-content p{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.dropdown-content p:hover{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 140px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.541);
+    margin-top: 10px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    margin: auto;
+    width: 140px;
+    transition: all 1s ease;
+}
+
+.searchdiv{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(circle, rgb(255, 166, 0), orangered);
+}
+.searchbar{
+    width: 20%;
+    padding: 12px;
+    background-image: url(search-icon.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 14px 14px;
+    padding-left: 50px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out;
+}
+.searchbar:focus{
+    width: 70%;
+}
+.background{
+    /* position: relative; */
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.226)),
+    url(CAPTAIN_FANTASTIC.70abebf.jpg);
+    background-position: center;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 640px;
+    overflow: auto;
+}
+.divtop{
+    margin: 30px 0 0 60px;
+}
+.one{
+    font-size: 47px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.two{
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-family: 'DM Sans', sans-serif;
+}
+.link{
+    font-weight: 600;
+    background-color:rgb(255, 68, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 80px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all 400ms ;
+}
+.link:hover{
+    font-size: 21px;
+    padding: 15px;
+}
+.three{
+    font-family: 'DM Sans', sans-serif;
+    margin: 40px 0px 70px 0;
+    font-size: 19px;
+}
+.four{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 19px;
+}
+a.log{
+    font-weight: 600;
+    text-decoration: none;
+    color: orangered;
+}
+a.log:hover{
+    margin-right: 10px;
+}
+.badgelink1{
+    margin-right: 20px;
+}
+.middle{
+    /* position: relative; */
+    background: linear-gradient(to left,rgb(0, 0, 0),rgba(0, 0, 0, 0.849),
+    rgba(0, 0, 0, 0.623)), url(FLORIDA_PROJECT.ac4c172.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.middlenote{
+   float: right;
+   justify-content: end;
+   margin: 120px 100px 120px 0;
+}
+.note{
+    margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.ii{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    line-height: 26px;
+}
+.producers{
+    color: orangered;
+    font-weight: 700;
+    cursor: pointer;
+}
+.producers:hover{
+   text-decoration: 2px underline white;
+}
+.third{
+    font-family: 'DM Sans', sans-serif;
+}
+.h1div{
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    text-align: center;
+}
+.h1text{
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+
+/* Animation slideshow images */
+
+.imagesdiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.slide{
+    width:300px;
+    margin: 0 20px 20px 0;
+    padding: 8px;
+    transition: all 1s ease;
+}
+
+.slide:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.browsemovies{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    line-height: 70px;
+    /* letter-spacing: .5px; */
+}
+.browselink{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4px solid white;
+    padding: 20px;
+    text-decoration: none;
+}
+.browselink:hover{
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 20px rgb(34, 34, 34);
+}
+
+.viewdiv{
+    width: 100%;
+    overflow: hidden;
+    font-family: 'DM Sans', sans-serif;
+    background: radial-gradient(circle, rgb(175, 70, 0), rgb(112, 30, 0), rgb(65, 17, 0));
+    color: white;
+    padding: 60px 80px;
+    text-align: center;
+}
+.viewh1{
+    margin-bottom: 20px;
+}
+.unordered{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+.list{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 150px;
+}
+.z{
+    margin-right: 0;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: rgb(160, 160, 160);
+}
+li a:hover{
+    color: white;
+    font-weight: 700;
+}
+li p:hover{
+    border-bottom: 2px solid orangered;
+}
+.viewh1ii{
+    margin: 48px 0 38px 0;
+}
+.tv{
+    width: 70%;
+}
+.line{
+    border: 1px solid rgb(194, 194, 194);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.start{
+    margin: 40px 0;
+}
+.fourth{
+    margin: auto;
+}
+.tablecontainer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    overflow: auto;
+}
+.tc{
+    padding: 40px;
+}
+.lineh1{
+    font-size: 48px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.phase{
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    font-size: 28px;
+}
+.up{
+    border-top: 1px solid rgb(99, 99, 99); 
+}
+.plus{
+    cursor: pointer;
+    font-size: 35px;
+    color: grey;
+}
+.plus:hover{
+    font-size: 36px;
+    color: white;
+}
+.lineh1two{
+    margin: 50px 0;
+}
+.fifth{
+   margin: auto;
+}
+
+/* Note: this is an empty division */
+.empty{
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    padding: 20px 0;
+}
+.divline{
+    height: 3px;
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(to right, rgb(214, 32, 0), rgb(207, 83, 0),
+    rgb(255, 166, 0));
+}
+
+/* footer part */
+.endinfo{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.link1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+    font-weight: 600;
+}
+.link1 a:hover{
+    text-decoration: 2px underline orangered;
+}
+.link2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.link2 img{
+    width: 65px;
+    margin-right: 10px;
+}
+.link2 p{
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.link2 .size{
+    display: none;
+}
+.link3 a{
+    color: rgb(175, 175, 175);
+    margin-right: 10px;
+}
+.link3 a:hover{
+    color: white;
+}
